@@ -1,0 +1,12 @@
+Region,Source name,Source VM name,Source VM ID,Migration group,Instance name,Project,Zone,Machine type series,Machine type,Disk type,Network,Subnetwork,External IP,Internal IP,Network tags,Service account,On host maintenance,Automatic restart,License type,Labels,Node affinity labels,Minimum vCPUs allocated,Metadata,Secure boot,Additional licenses,Replication idle time between cycles,
+us-central1,my-source,My VM,my-vm-id,my-group,my-instance,projects/host-project/locations/global/targetProjects/my-target-project,us-central1-a,n1,n1-standard-1,Standard,"my-network
+my-shared-network","projects/target-project/locations/us-central1/subnetworks/my-subnetwork
+projects/vpc-host-project/locations/us-central1/subnetworks/my-shared-subnetwork","ephemeral
+my-reserved-external-ip","ephemeral
+10.20.30.40","my-tag-1
+my-tag-2",my-email@my.domain.com,MIGRATE,On,BYOL,"my-key-1:my-value-1
+my-key-2:my-value-2","my-key-1:IN:my-value-1-1
+my-key-1:IN:my-value-1-2
+my-key-2:NOT_IN:my-value-2",1,"my-key-1:my-value-1
+my-key-2:my-value-2",true,"https://license.com
+http://license-2.com",7200s,
